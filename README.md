@@ -15,6 +15,8 @@ $this->load->library('backgroundworker');
 Once you have included the library, you can use it directly as 
 ```
 $this->backgroundworker->execute($command,$outputfile,$pidFile);
+```
+```
 $command - Command to be executed as background process (curl http://appnzee.com)
 $outputfile - Name of File where you want to stream the output 
 $pidFile - File name for writing process id
