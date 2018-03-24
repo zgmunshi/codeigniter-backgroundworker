@@ -1,7 +1,7 @@
 # Codeigniter Background Worker
 
 Codeigniter Background worker will take care of tasks / jobs to be processed in background. Usually we have requirement for processing tasks as background process instead of keeping the system utilized. 
-This is very simple approach to tackle race condition or deadlocks by using multi processing approach.
+This is very simple approach to tackle deadlocks by using multi processing approach.
 
 ## Installation
 
